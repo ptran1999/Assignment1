@@ -1,0 +1,22 @@
+a) Counting objects: 7, done.
+Delta compression using up to 4 threads.
+Compressing objects: 100% (5/5), done.
+Writing objects: 100% (7/7), 776 bytes | 388.00 KiB/s, done.
+Total 7 (delta 2), reused 0 (delta 0)
+remote: Resolving deltas: 100% (2/2), completed with 1 local object.
+To https://github.com/ptran1999/Assignment1.git
+   3d373c9..0843c21  master -> master
+b) There are 5 commits so far. Command:
+    git log --oneline
+c) It was last modified on Thu Jan 10 16:45:38 2019. Command:
+    git log .\.gitignore
+d) 1: Help improve workflow, different people in different team can work on different task at the same time and don't have to depend on other team which save time and resource.
+   2: Have a way to keep the old version of a program while developing a new one in case the client hate the new update and it becomes obsolete. With branching, the developer can go back to the old version and get all the unwanted code out.
+e) git status is to see which file has been modified and ready to commit while git log is used to get information about the history of the past commits.
+f) git log .\Weapon.h
+g) git log --grep="file"
+h) I) Inheritance is the process that the child have the properties of the parents class. For example, a "dog" object can inherit some properties of an "animal" object such as "Age","Gender",etc.
+   II) Polymorphism is the ability that an object can take many forms. In other words, a child class can acquire different behavior from the parent class. For example, a "shape" object can have a method call "CalculateArea", then a "circle" or a "square" object can be created by inherit the property of the "shape" but their "CalculateArea" method will be different.
+   III) Encapsulation is to restrict the data with the code that manipulates it and keep it safe form interference by others. For example, if we create a "bank_account" class, we will keep the data such as "balance" as a private data to restrict the users of our program to change it on their own will. It also to prevent other programmers who work with our program who use the same variables name somewhere else from altering the data in our variables. 
+i) The main different is that for the "Dictator and Lieutenants" workflow, the developers do their jobs in their own private repositories and push the features to the lieutenant public repository instead of their own public repository while the "Integration management" workflow let them publish the feature to their public repository. There will be lots of reason behind these two approaches such as the privacy of the product, the amount of work force of the company and the size of the product. 
+j) Because there may be different idea that got adjust to the product and by using the "Dictator and Lieutenants" workflow, the manager of COT of the product can decide which one to keep instead of letting each developer decides on their own. This also prevent developer from deleting each other code accidently and then everyone have to go back a bunch of commits before that to fix the program.
