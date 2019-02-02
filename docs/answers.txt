@@ -1,3 +1,4 @@
+3.
 a) Counting objects: 7, done.
 Delta compression using up to 4 threads.
 Compressing objects: 100% (5/5), done.
@@ -20,3 +21,5 @@ h) I) Inheritance is the process that the child have the properties of the paren
    III) Encapsulation is to restrict the data with the code that manipulates it and keep it safe form interference by others. For example, if we create a "bank_account" class, we will keep the data such as "balance" as a private data to restrict the users of our program to change it on their own will. It also to prevent other programmers who work with our program who use the same variables name somewhere else from altering the data in our variables. 
 i) The main different is that for the "Dictator and Lieutenants" workflow, the developers do their jobs in their own private repositories and push the features to the lieutenant public repository instead of their own public repository while the "Integration management" workflow let them publish the feature to their public repository. There will be lots of reason behind these two approaches such as the privacy of the product, the amount of work force of the company and the size of the product. 
 j) Because there may be different idea that got adjust to the product and by using the "Dictator and Lieutenants" workflow, the manager of COT of the product can decide which one to keep instead of letting each developer decides on their own. This also prevent developer from deleting each other code accidently and then everyone have to go back a bunch of commits before that to fix the program.
+
+5. The RoleGame prototype uses both polymorphism and encapsulation. By creating lots of different instance of weapons from the "weapon" class is an example of polymorphism. By letting only the subclass of "Weapon" use the attributes of the class is an instance of encapsulation. Another one is let main.cpp use only getName and getInstance function from the WeaponFactory class. 
